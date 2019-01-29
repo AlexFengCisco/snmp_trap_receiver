@@ -1,0 +1,279 @@
+
+
+SNMP BER(Basic Encoding Rule)
+
+BER Types 
+
+Primitive types: 02 INTEGER, 04 OCTET STRING, 06 OBJECT IDENTIFIER, NULL
+Constructor types: 30 SEQUENCE, SEQUENCE OF
+Defined types: NetworkAddress, 40 IpAddress, Counter, Gauge, 43 TimeTicks, Opaque
+
+
+PDU  Protocol Data Unit 
+
+PDU Type
+
+0   get-request
+
+1   get-next-request
+
+2   get-response
+
+3   set-request
+
+4   trap
+
+
+trap Type
+
+0  coldStart
+
+1  warmStart
+
+2  linkDown
+
+3  linkUp
+
+4  authenticationFailure
+
+5  egpNeighborLoss
+
+6  enterpriseSpecific
+
+
+// snmp trap v2c sample , shut no shu int vsan 1
+30 73
+ 02 01 01 
+ 04 06 70 75 62 6c 69 63 
+
+ a7 66 
+ 02 04 38 e0 4d 96 
+ 02 01 00 
+ 02 01 00 
+ 30 58 
+ 30 10  
+        06 08 2b  06 01 02 01 01 03 00 
+        43 04 03 9c eb 16 
+ 30 19  
+        06 0a 2b  06 01 06 03 01 01 04 01 00 06 0b 2b 06 01 04 01 09  09 2b 02 00 02  
+ 30 14  
+        06 0c 2b  06 01 04 01 09 09 2b 01 01 01 00 
+        43 04 03 9c e7 69 
+ 30 13  
+        06 0e 2b  06 01 04 01 09 09 2b 01 01 06 01 06 27 
+        02 01 04
+
+// 2nd time, snmp v2c trap sample
+307302010104067075626c6963a766020438e04dfc0201000201003058301006082b06010201010300430403aa93f93019060a2b060106030101040100060b2b0601040109092b0200023014060c2b0601040109092b01010100430403aa91b13013060e2b0601040109092b01010601063b020104
+
+30 73 
+ 02 01 01 
+ 04 06 70 75 62 6c 69 63
+ a7 66 
+ 02 04 38 e0 4d fc 
+ 02 01 00
+ 02 01 00
+ 30 58 
+ 30 10 
+       06 08 2b 06 01 02 01 01 03 00 
+       43 04 03 aa 93 f9 
+ 30 19 
+       06 0a 2b 06 01 06 03 01 01 04 01 00 06 0b 2b 06 01 04 01 09 09 2b 02 00 02 
+ 30 14 
+       06 0c 2b 06 01 04 01 09 09 2b 01 01 01 00 43 04 03 aa 91 b1 
+ 30 13 
+       06 0e 2b 06 01 04 01 09 09 2b 01 01 06 01 06 3b 
+       02 01 04
+
+
+
+
+// snmp v2c trap decode 
+
+30 = SEQUENCE type 30
+73 = length 115 
+
+02 = snmp version 02 = INTEGER
+01 = lenght 1
+01 = version 2c 0 = versin 1
+
+04 = community STRING  
+06 = length =6
+70 75 62 6c 69 63 = public ascii string
+
+a7 = snmp trap userdefine.  usually  'a'+x x= PDU type , 4 means trap ,7 means user defiend trap type
+66 = length 102 all rest
+
+02 = INTEGRER
+04 = lenth 4
+38 e0 4d 96 = snmp request id = 954224022
+
+02 = INTEGER
+01 = len 1
+00 = error status 0
+
+02 = INTEGER
+01 = len 1
+00 = error index 0
+
+30 = SEQUENCE type 30
+58 = len 88
+
+     30 = SEQUENCE type 30
+     10 = len 16
+         06 = type OBJECT IDENTIFIER
+         08 = len 8
+         2b  06 01 02 01 01  03 00  = OID 2b=43 menas 1x40+3  first 2 position 1.3.6.1.2.1.1.3.0    sysUPtime 
+     
+         43 = time tickct type
+         04 = len4
+         03 9c eb 16 = 60615446 seconds ~ 168 hours 30 minbuts xx seconds..
+
+     
+     30  = SEQUENCE type 30
+     19  = len 25
+          06 = type OBJECT IDENTIFIER
+          0a = len 10
+          2b 06 01 06 03 01 01 04 01 00 = OID 1.3.6.1.6.3.1.1.4.1.0          snmpTrapOID    
+
+          06 = type OBJECT IDENTIFIER
+          0b = len 11
+          2b 06 01 04 01 09 09 2b 02 00 02  = OID 1.3.6.1.4.1.9.9.43.2.0.2   ccmCLIRunningConfigChanged
+     
+
+     30  = SEQUENCE type 30
+     14  = len 20
+          06 = type OBJECT IDENTIFIER
+          0c = len 12
+          2b  06 01 04 01 09 09 2b 01 01 01 00  = OID 1.3.6.1.4.1.9.9.43.1.1.1.0   ccmHistoryRunningLastChanged. 
+
+          43 = time tickct type
+          04 = len 4
+          03 9c e7 69  = 168 hours xx min xx seonds
+
+    
+     30 = SEQUENCE type 30
+     13 = len 19 
+          06 = type OBJECT IDENTIFIER
+          0e = len 14
+          2b 06 01 04 01 09 09 2b 01 01 06 01 06 27 = OID 1.3.6.1.4.1.9.9.43.1.1.6.1.6.39   	ccmHistoryEventTerminalType
+          
+          02 = INTEGER
+          01 = len 1
+          04 = 4               1-notApplicable, 2-unknown, 3-console, 4-terminal, 5-virtual, 6-auxiliary
+
+
+
+//snmp v1 trap sample
+
+305702010004067075626c6963a44a06092b0601040109092b0240040a4b3c03020106020102430403b306df302b3014060c2b0601040109092b01010100430403b304873013060e2b0601040109092b010106010665020104
+
+30 57
+ 02 01 00 
+ 04 06 70 75 62 6c 69 63 
+ a4 4a 
+
+    06 09 2b 06 01 04 01 09 09 2b 02 
+    40 04 0a 4b 3c 03 
+
+    02 01 06 
+    02 01 02
+
+    43 04 03 b3 06 df 
+    30 2b
+    30 14 
+       06 0c 2b 06 01 04 01 09 09 2b 01 01 01 00 
+       43 04 03 b3 04 87
+    30 13
+       06 0e 2b 06 01 04 01 09 09 2b 01 01 06 01 06 65 
+       02 01 04
+
+//snmp v1 2nd sample trp
+
+305702010004067075626c6963a44a06092b0601040109092b0240040a4b3c03020106020102430403b8c428302b3014060c2b0601040109092b01010100430403b8c0983013060e2b0601040109092b01010601066a020104
+
+30 57
+  02 01 00 
+  04 06 70 75 62 6c 69 63 
+  a4 4a 
+     06 09 2b 06 01 04 01 09 09 2b 02 
+     40 04 0a 4b 3c 03 
+
+     02 01 06 
+     02 01 02 
+
+     43 04 03 b8 c4 28 
+     30 2b 
+        30 14 
+           06 0c 2b 06 01 04 01 09 09 2b 01 01 01 00 
+           43 04 03 b8 c0 98 
+        30 13 
+           06 0e 2b 06 01 04 01 09 09 2b 01 01 06 01 06 6a 
+           02 01 04
+
+
+// snmp v1 trap decode
+
+30  = SEQUENCE type 30
+57  = len 87
+
+02 = INTEGER
+01 = le 1
+00 = 00 version 1
+
+04 =  community STRING 
+06 = len 6
+70 75 62 6c 69 63 = public STRING
+
+a4 = snmp trap userdefine.  usually  'a'+x x= PDU type , 4 means trap ,7 means user defiend trap type 
+4a = len 74
+
+    06 = type OBJECT IDENTIFIER
+    09 = len 9
+    2b 06 01 04 01 09 09 2b 02 = OID 1.3.6.1.4.1.9.9.43.2    ciscoConfigManMIBNotificationPrefix
+    
+    40 = type OCTET STRING ? IP ADDRESS
+    04 = len 4
+    0a 4b 3c 03  =  ip address 10.75.60.3    
+
+    02 = INTEGER
+    01 = len 1
+    06 = enterpriseSpecific
+
+    
+    02 = INTEGER
+    01 = len 1
+    02 = trap type  linkDown
+
+    43 = time tickct type
+    04 = len 4
+    03 b3 06 df = 129 hours xx minu xx seconds
+
+    30  = SEQUENCE type 30 
+    2b  = len 43
+    
+        30 = SEQUENCE type 30
+        14 = len 20
+            06 = type OBJECT IDENTIFIER
+            0c = len 12
+            2b 06 01 04 01 09 09 2b 01 01 01 00 = OID 1.3.6.1.4.1.9.9.43.1.1.1.0   ccmHistoryRunningLastChanged. 
+            
+            43 = time tickct type 
+            04 = len 4
+            03 b3 04 87 = 129 hours xx minus xx seconds
+        
+        30 = SEQUENCE type 30
+        13 = len 19
+            06 = type OBJECT IDENTIFIER
+            0e  = len 14
+            2b 06 01 04 01 09 09 2b 01 01 06 01 06 65 = OID 1.3.6.1.4.1.9.9.43.1.1.6.1.6.104  ccmHistoryEventTerminalType
+            
+            02 = INTEGER
+            01 = len 1
+            04 = 1-notApplicable, 2-unknown, 3-console, 4-terminal, 5-virtual, 6-auxiliary
+
+
+
+
+
+

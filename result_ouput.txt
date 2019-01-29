@@ -1,0 +1,851 @@
+/Users/alfeng/PycharmProjects/snmp/venv/bin/python /Users/alfeng/PycharmProjects/snmp/venv/snmp_trap.py
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 1 [snmp version v2c]
+OCT STRING b'public'
+INTEGER 954225330 [snmp request ID]
+INTEGER 0 [error status]
+INTEGER 0 [error index]
+OID 1.3.6.1.2.1.1.3.0 [sysUPtime]
+TIME Tickt 71200301
+OID 1.3.6.1.6.3.1.1.4.1.0 [snmpTrapOID]
+OID 1.3.6.1.4.1.9.9.43.2.0.2 [ccmCLIRunningConfigChanged]
+OID 1.3.6.1.4.1.9.9.43.1.1.1.0 [ccmHistoryRunningLastChanged]
+TIME Tickt 71200061
+OID 1.3.6.1.4.1.9.9.43.1.1.6.1.6.129.4
+INTEGER 4
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 1 [snmp version v2c]
+OCT STRING b'public'
+INTEGER 954225331 [snmp request ID]
+INTEGER 0 [error status]
+INTEGER 0 [error index]
+OID 1.3.6.1.2.1.1.3.0 [sysUPtime]
+TIME Tickt 71200947
+OID 1.3.6.1.6.3.1.1.4.1.0 [snmpTrapOID]
+OID 1.3.6.1.4.1.9.9.130.20.0.2
+OID 1.3.6.1.2.1.2.2.1.1.136.131.128.0
+INTEGER 16826368
+OID 1.3.6.1.2.1.2.2.1.7.136.131.128.0
+INTEGER 1
+OID 1.3.6.1.2.1.2.2.1.8.136.131.128.0
+INTEGER 1
+OID 1.3.6.1.2.1.31.1.1.1.1.136.131.128.0
+OCT STRING b'fc1/13'
+OID 1.3.6.1.2.1.2.2.1.3.136.131.128.0
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 1 [snmp version v2c]
+OCT STRING b'public'
+INTEGER 954225332 [snmp request ID]
+INTEGER 0 [error status]
+INTEGER 0 [error index]
+OID 1.3.6.1.2.1.1.3.0 [sysUPtime]
+TIME Tickt 71200957
+OID 1.3.6.1.6.3.1.1.4.1.0 [snmpTrapOID]
+OID 1.3.6.1.3.94.0.6
+OID 1.3.6.1.3.94.1.10.1.7.32.0.0.42.106.129.38.129.105.129.0.0.0.0.0.0.0.0.0.136.131.128.0
+INTEGER 3
+OID 1.3.6.1.3.94.1.10.1.6.32.0.0.42.106.129.38.129.105.129.0.0.0.0.0.0.0.0.0.136.131.128.0
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 1 [snmp version v2c]
+OCT STRING b'public'
+INTEGER 954225333 [snmp request ID]
+INTEGER 0 [error status]
+INTEGER 0 [error index]
+OID 1.3.6.1.2.1.1.3.0 [sysUPtime]
+TIME Tickt 71200967
+OID 1.3.6.1.6.3.1.1.4.1.0 [snmpTrapOID]
+OID 1.3.6.1.6.3.1.1.5.4
+OID 1.3.6.1.2.1.2.2.1.1.136.131.128.0
+INTEGER 16826368
+OID 1.3.6.1.2.1.2.2.1.7.136.131.128.0
+INTEGER 1
+OID 1.3.6.1.2.1.2.2.1.8.136.131.128.0
+INTEGER 1
+OID 1.3.6.1.2.1.2.2.1.2.136.131.128.0
+OCT STRING b'fc1/13'
+OID 1.3.6.1.2.1.31.1.1.1.18.136.131.128.0
+OCT STRING b'snmp_test_trap'
+OID 1.3.6.1.4.1.9.9.130.33.1.1.2.1.3.136.131.128.0
+INTEGER 12
+OID 1.3.6.1.6.3.1.1.4.3.0
+OID 1.3.6.1.6.3.1.1.5.4
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 1 [snmp version v2c]
+OCT STRING b'public'
+INTEGER 954225334 [snmp request ID]
+INTEGER 0 [error status]
+INTEGER 0 [error index]
+OID 1.3.6.1.2.1.1.3.0 [sysUPtime]
+TIME Tickt 71200977
+OID 1.3.6.1.6.3.1.1.4.1.0 [snmpTrapOID]
+OID 1.3.6.1.4.1.9.9.130.33.1.3.0.2
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.1.136.131.128.0.1
+INTEGER 1
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.2.136.131.128.0.1
+INTEGER 2
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.3.136.131.128.0.1
+OCT STRING b'None'
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 1 [snmp version v2c]
+OCT STRING b'public'
+INTEGER 954225335 [snmp request ID]
+INTEGER 0 [error status]
+INTEGER 0 [error index]
+OID 1.3.6.1.2.1.1.3.0 [sysUPtime]
+TIME Tickt 71200987
+OID 1.3.6.1.6.3.1.1.4.1.0 [snmpTrapOID]
+OID 1.3.6.1.4.1.9.9.130.33.1.3.0.2
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.1.136.131.128.0.100
+INTEGER 1
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.2.136.131.128.0.100
+INTEGER 2
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.3.136.131.128.0.100
+OCT STRING b'None'
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 1 [snmp version v2c]
+OCT STRING b'public'
+INTEGER 954225336 [snmp request ID]
+INTEGER 0 [error status]
+INTEGER 0 [error index]
+OID 1.3.6.1.2.1.1.3.0 [sysUPtime]
+TIME Tickt 71200997
+OID 1.3.6.1.6.3.1.1.4.1.0 [snmpTrapOID]
+OID 1.3.6.1.4.1.9.9.130.33.1.3.0.2
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.1.136.131.128.0.132.98
+INTEGER 1
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.2.136.131.128.0.132.98
+INTEGER 2
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.3.136.131.128.0.132.98
+OCT STRING b'None'
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 1 [snmp version v2c]
+OCT STRING b'public'
+INTEGER 954225337 [snmp request ID]
+INTEGER 0 [error status]
+INTEGER 0 [error index]
+OID 1.3.6.1.2.1.1.3.0 [sysUPtime]
+TIME Tickt 71201297
+OID 1.3.6.1.6.3.1.1.4.1.0 [snmpTrapOID]
+OID 1.3.6.1.4.1.9.9.43.2.0.2 [ccmCLIRunningConfigChanged]
+OID 1.3.6.1.4.1.9.9.43.1.1.1.0 [ccmHistoryRunningLastChanged]
+TIME Tickt 71200829
+OID 1.3.6.1.4.1.9.9.43.1.1.6.1.6.129.6
+INTEGER 4
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 1 [snmp version v2c]
+OCT STRING b'public'
+INTEGER 954225338 [snmp request ID]
+INTEGER 0 [error status]
+INTEGER 0 [error index]
+OID 1.3.6.1.2.1.1.3.0 [sysUPtime]
+TIME Tickt 71213024
+OID 1.3.6.1.6.3.1.1.4.1.0 [snmpTrapOID]
+OID 1.3.6.1.4.1.9.9.130.33.1.3.0.1
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.1.136.131.128.0.1
+INTEGER 2
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.2.136.131.128.0.1
+INTEGER 12
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.3.136.131.128.0.1
+OCT STRING b'Administratively down'
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 1 [snmp version v2c]
+OCT STRING b'public'
+INTEGER 954225339 [snmp request ID]
+INTEGER 0 [error status]
+INTEGER 0 [error index]
+OID 1.3.6.1.2.1.1.3.0 [sysUPtime]
+TIME Tickt 71213034
+OID 1.3.6.1.6.3.1.1.4.1.0 [snmpTrapOID]
+OID 1.3.6.1.4.1.9.9.130.33.1.3.0.1
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.1.136.131.128.0.100
+INTEGER 2
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.2.136.131.128.0.100
+INTEGER 12
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.3.136.131.128.0.100
+OCT STRING b'Administratively down'
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 1 [snmp version v2c]
+OCT STRING b'public'
+INTEGER 954225340 [snmp request ID]
+INTEGER 0 [error status]
+INTEGER 0 [error index]
+OID 1.3.6.1.2.1.1.3.0 [sysUPtime]
+TIME Tickt 71213044
+OID 1.3.6.1.6.3.1.1.4.1.0 [snmpTrapOID]
+OID 1.3.6.1.4.1.9.9.130.33.1.3.0.1
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.1.136.131.128.0.132.98
+INTEGER 2
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.2.136.131.128.0.132.98
+INTEGER 12
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.3.136.131.128.0.132.98
+OCT STRING b'Administratively down'
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 1 [snmp version v2c]
+OCT STRING b'public'
+INTEGER 954225341 [snmp request ID]
+INTEGER 0 [error status]
+INTEGER 0 [error index]
+OID 1.3.6.1.2.1.1.3.0 [sysUPtime]
+TIME Tickt 71213054
+OID 1.3.6.1.6.3.1.1.4.1.0 [snmpTrapOID]
+OID 1.3.6.1.4.1.9.9.130.20.0.1
+OID 1.3.6.1.2.1.2.2.1.1.136.131.128.0
+INTEGER 16826368
+OID 1.3.6.1.2.1.2.2.1.7.136.131.128.0
+INTEGER 2
+OID 1.3.6.1.2.1.2.2.1.8.136.131.128.0
+INTEGER 2
+OID 1.3.6.1.2.1.31.1.1.1.1.136.131.128.0
+OCT STRING b'fc1/13'
+OID 1.3.6.1.2.1.2.2.1.3.136.131.128.0
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 1 [snmp version v2c]
+OCT STRING b'public'
+INTEGER 954225342 [snmp request ID]
+INTEGER 0 [error status]
+INTEGER 0 [error index]
+OID 1.3.6.1.2.1.1.3.0 [sysUPtime]
+TIME Tickt 71213064
+OID 1.3.6.1.6.3.1.1.4.1.0 [snmpTrapOID]
+OID 1.3.6.1.3.94.0.6
+OID 1.3.6.1.3.94.1.10.1.7.32.0.0.42.106.129.38.129.105.129.0.0.0.0.0.0.0.0.0.136.131.128.0
+INTEGER 1
+OID 1.3.6.1.3.94.1.10.1.6.32.0.0.42.106.129.38.129.105.129.0.0.0.0.0.0.0.0.0.136.131.128.0
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 1 [snmp version v2c]
+OCT STRING b'public'
+INTEGER 954225343 [snmp request ID]
+INTEGER 0 [error status]
+INTEGER 0 [error index]
+OID 1.3.6.1.2.1.1.3.0 [sysUPtime]
+TIME Tickt 71213074
+OID 1.3.6.1.6.3.1.1.4.1.0 [snmpTrapOID]
+OID 1.3.6.1.6.3.1.1.5.3
+OID 1.3.6.1.2.1.2.2.1.1.136.131.128.0
+INTEGER 16826368
+OID 1.3.6.1.2.1.2.2.1.7.136.131.128.0
+INTEGER 2
+OID 1.3.6.1.2.1.2.2.1.8.136.131.128.0
+INTEGER 2
+OID 1.3.6.1.2.1.2.2.1.2.136.131.128.0
+OCT STRING b'fc1/13'
+OID 1.3.6.1.2.1.31.1.1.1.18.136.131.128.0
+OCT STRING b'snmp_test_trap'
+OID 1.3.6.1.4.1.9.9.130.33.1.1.2.1.7.136.131.128.0
+INTEGER 12
+OID 1.3.6.1.6.3.1.1.4.3.0
+OID 1.3.6.1.6.3.1.1.5.3
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 1 [snmp version v2c]
+OCT STRING b'public'
+INTEGER 954225344 [snmp request ID]
+INTEGER 0 [error status]
+INTEGER 0 [error index]
+OID 1.3.6.1.2.1.1.3.0 [sysUPtime]
+TIME Tickt 71213278
+OID 1.3.6.1.6.3.1.1.4.1.0 [snmpTrapOID]
+OID 1.3.6.1.4.1.9.9.130.20.0.2
+OID 1.3.6.1.2.1.2.2.1.1.136.131.128.0
+INTEGER 16826368
+OID 1.3.6.1.2.1.2.2.1.7.136.131.128.0
+INTEGER 1
+OID 1.3.6.1.2.1.2.2.1.8.136.131.128.0
+INTEGER 1
+OID 1.3.6.1.2.1.31.1.1.1.1.136.131.128.0
+OCT STRING b'fc1/13'
+OID 1.3.6.1.2.1.2.2.1.3.136.131.128.0
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 1 [snmp version v2c]
+OCT STRING b'public'
+INTEGER 954225345 [snmp request ID]
+INTEGER 0 [error status]
+INTEGER 0 [error index]
+OID 1.3.6.1.2.1.1.3.0 [sysUPtime]
+TIME Tickt 71213288
+OID 1.3.6.1.6.3.1.1.4.1.0 [snmpTrapOID]
+OID 1.3.6.1.3.94.0.6
+OID 1.3.6.1.3.94.1.10.1.7.32.0.0.42.106.129.38.129.105.129.0.0.0.0.0.0.0.0.0.136.131.128.0
+INTEGER 3
+OID 1.3.6.1.3.94.1.10.1.6.32.0.0.42.106.129.38.129.105.129.0.0.0.0.0.0.0.0.0.136.131.128.0
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 1 [snmp version v2c]
+OCT STRING b'public'
+INTEGER 954225346 [snmp request ID]
+INTEGER 0 [error status]
+INTEGER 0 [error index]
+OID 1.3.6.1.2.1.1.3.0 [sysUPtime]
+TIME Tickt 71213298
+OID 1.3.6.1.6.3.1.1.4.1.0 [snmpTrapOID]
+OID 1.3.6.1.6.3.1.1.5.4
+OID 1.3.6.1.2.1.2.2.1.1.136.131.128.0
+INTEGER 16826368
+OID 1.3.6.1.2.1.2.2.1.7.136.131.128.0
+INTEGER 1
+OID 1.3.6.1.2.1.2.2.1.8.136.131.128.0
+INTEGER 1
+OID 1.3.6.1.2.1.2.2.1.2.136.131.128.0
+OCT STRING b'fc1/13'
+OID 1.3.6.1.2.1.31.1.1.1.18.136.131.128.0
+OCT STRING b'snmp_test_trap'
+OID 1.3.6.1.4.1.9.9.130.33.1.1.2.1.3.136.131.128.0
+INTEGER 12
+OID 1.3.6.1.6.3.1.1.4.3.0
+OID 1.3.6.1.6.3.1.1.5.4
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 1 [snmp version v2c]
+OCT STRING b'public'
+INTEGER 954225348 [snmp request ID]
+INTEGER 0 [error status]
+INTEGER 0 [error index]
+OID 1.3.6.1.2.1.1.3.0 [sysUPtime]
+TIME Tickt 71213318
+OID 1.3.6.1.6.3.1.1.4.1.0 [snmpTrapOID]
+OID 1.3.6.1.4.1.9.9.130.33.1.3.0.2
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.1.136.131.128.0.100
+INTEGER 1
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.2.136.131.128.0.100
+INTEGER 2
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.3.136.131.128.0.100
+OCT STRING b'None'
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 1 [snmp version v2c]
+OCT STRING b'public'
+INTEGER 954225349 [snmp request ID]
+INTEGER 0 [error status]
+INTEGER 0 [error index]
+OID 1.3.6.1.2.1.1.3.0 [sysUPtime]
+TIME Tickt 71213328
+OID 1.3.6.1.6.3.1.1.4.1.0 [snmpTrapOID]
+OID 1.3.6.1.4.1.9.9.130.33.1.3.0.2
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.1.136.131.128.0.132.98
+INTEGER 1
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.2.136.131.128.0.132.98
+INTEGER 2
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.3.136.131.128.0.132.98
+OCT STRING b'None'
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 1 [snmp version v2c]
+OCT STRING b'public'
+INTEGER 954225350 [snmp request ID]
+INTEGER 0 [error status]
+INTEGER 0 [error index]
+OID 1.3.6.1.2.1.1.3.0 [sysUPtime]
+TIME Tickt 71213338
+OID 1.3.6.1.6.3.1.1.4.1.0 [snmpTrapOID]
+OID 1.3.6.1.4.1.9.9.43.2.0.2 [ccmCLIRunningConfigChanged]
+OID 1.3.6.1.4.1.9.9.43.1.1.1.0 [ccmHistoryRunningLastChanged]
+TIME Tickt 71213161
+OID 1.3.6.1.4.1.9.9.43.1.1.6.1.6.129.8
+INTEGER 4
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 1 [snmp version v2c]
+OCT STRING b'public'
+INTEGER 954225351 [snmp request ID]
+INTEGER 0 [error status]
+INTEGER 0 [error index]
+OID 1.3.6.1.2.1.1.3.0 [sysUPtime]
+TIME Tickt 71215326
+OID 1.3.6.1.6.3.1.1.4.1.0 [snmpTrapOID]
+OID 1.3.6.1.4.1.9.9.43.2.0.2 [ccmCLIRunningConfigChanged]
+OID 1.3.6.1.4.1.9.9.43.1.1.1.0 [ccmHistoryRunningLastChanged]
+TIME Tickt 71215107
+OID 1.3.6.1.4.1.9.9.43.1.1.6.1.6.129.9
+INTEGER 4
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 1 [snmp version v2c]
+OCT STRING b'public'
+INTEGER 954225352 [snmp request ID]
+INTEGER 0 [error status]
+INTEGER 0 [error index]
+OID 1.3.6.1.2.1.1.3.0 [sysUPtime]
+TIME Tickt 71219341
+OID 1.3.6.1.6.3.1.1.4.1.0 [snmpTrapOID]
+OID 1.3.6.1.4.1.9.9.43.2.0.2 [ccmCLIRunningConfigChanged]
+OID 1.3.6.1.4.1.9.9.43.1.1.1.0 [ccmHistoryRunningLastChanged]
+TIME Tickt 71219002
+OID 1.3.6.1.4.1.9.9.43.1.1.6.1.6.129.10
+INTEGER 4
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.4.1.9.9.43.2 [ciscoConfigManMIBNotificationPrefix]
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 6
+INTEGER 2
+TIME Tickt 71221339
+OID 1.3.6.1.4.1.9.9.43.1.1.1.0 [ccmHistoryRunningLastChanged]
+TIME Tickt 71220781
+OID 1.3.6.1.4.1.9.9.43.1.1.6.1.6.129.11
+INTEGER 4
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.4.1.9.9.130.33.1.3
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 6
+INTEGER 1
+TIME Tickt 71223697
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.1.136.131.128.0.1
+INTEGER 2
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.2.136.131.128.0.1
+INTEGER 12
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.3.136.131.128.0.1
+OCT STRING b'Administratively down'
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.4.1.9.9.130.33.1.3
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 6
+INTEGER 1
+TIME Tickt 71223706
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.1.136.131.128.0.100
+INTEGER 2
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.2.136.131.128.0.100
+INTEGER 12
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.3.136.131.128.0.100
+OCT STRING b'Administratively down'
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.4.1.9.9.130.33.1.3
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 6
+INTEGER 1
+TIME Tickt 71223716
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.1.136.131.128.0.132.98
+INTEGER 2
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.2.136.131.128.0.132.98
+INTEGER 12
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.3.136.131.128.0.132.98
+OCT STRING b'Administratively down'
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.4.1.9.9.130.20
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 6
+INTEGER 1
+TIME Tickt 71223726
+OID 1.3.6.1.2.1.2.2.1.1.136.131.128.0
+INTEGER 16826368
+OID 1.3.6.1.2.1.2.2.1.7.136.131.128.0
+INTEGER 2
+OID 1.3.6.1.2.1.2.2.1.8.136.131.128.0
+INTEGER 2
+OID 1.3.6.1.2.1.31.1.1.1.1.136.131.128.0
+OCT STRING b'fc1/13'
+OID 1.3.6.1.2.1.2.2.1.3.136.131.128.0
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.3.94
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 6
+INTEGER 6
+TIME Tickt 71223736
+OID 1.3.6.1.3.94.1.10.1.7.32.0.0.42.106.129.38.129.105.129.0.0.0.0.0.0.0.0.0.136.131.128.0
+INTEGER 1
+OID 1.3.6.1.3.94.1.10.1.6.32.0.0.42.106.129.38.129.105.129.0.0.0.0.0.0.0.0.0.136.131.128.0
+INTEGER 3
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.6.3.1.1.5.3
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 2
+INTEGER 0
+TIME Tickt 71223746
+OID 1.3.6.1.2.1.2.2.1.1.136.131.128.0
+INTEGER 16826368
+OID 1.3.6.1.2.1.2.2.1.7.136.131.128.0
+INTEGER 2
+OID 1.3.6.1.2.1.2.2.1.8.136.131.128.0
+INTEGER 2
+OID 1.3.6.1.2.1.2.2.1.2.136.131.128.0
+OCT STRING b'fc1/13'
+OID 1.3.6.1.2.1.31.1.1.1.18.136.131.128.0
+OCT STRING b'snm_test_trap'
+OID 1.3.6.1.4.1.9.9.130.33.1.1.2.1.7.136.131.128.0
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.4.1.9.9.130.20
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 6
+INTEGER 2
+TIME Tickt 71224068
+OID 1.3.6.1.2.1.2.2.1.1.136.131.128.0
+INTEGER 16826368
+OID 1.3.6.1.2.1.2.2.1.7.136.131.128.0
+INTEGER 1
+OID 1.3.6.1.2.1.2.2.1.8.136.131.128.0
+INTEGER 1
+OID 1.3.6.1.2.1.31.1.1.1.1.136.131.128.0
+OCT STRING b'fc1/13'
+OID 1.3.6.1.2.1.2.2.1.3.136.131.128.0
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.3.94
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 6
+INTEGER 6
+TIME Tickt 71224078
+OID 1.3.6.1.3.94.1.10.1.7.32.0.0.42.106.129.38.129.105.129.0.0.0.0.0.0.0.0.0.136.131.128.0
+INTEGER 3
+OID 1.3.6.1.3.94.1.10.1.6.32.0.0.42.106.129.38.129.105.129.0.0.0.0.0.0.0.0.0.136.131.128.0
+INTEGER 2
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.6.3.1.1.5.4
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 3
+INTEGER 0
+TIME Tickt 71224088
+OID 1.3.6.1.2.1.2.2.1.1.136.131.128.0
+INTEGER 16826368
+OID 1.3.6.1.2.1.2.2.1.7.136.131.128.0
+INTEGER 1
+OID 1.3.6.1.2.1.2.2.1.8.136.131.128.0
+INTEGER 1
+OID 1.3.6.1.2.1.2.2.1.2.136.131.128.0
+OCT STRING b'fc1/13'
+OID 1.3.6.1.2.1.31.1.1.1.18.136.131.128.0
+OCT STRING b'snm_test_trap'
+OID 1.3.6.1.4.1.9.9.130.33.1.1.2.1.3.136.131.128.0
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.4.1.9.9.130.33.1.3
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 6
+INTEGER 2
+TIME Tickt 71224098
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.1.136.131.128.0.1
+INTEGER 1
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.2.136.131.128.0.1
+INTEGER 2
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.3.136.131.128.0.1
+OCT STRING b'None'
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.4.1.9.9.130.33.1.3
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 6
+INTEGER 2
+TIME Tickt 71224108
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.1.136.131.128.0.100
+INTEGER 1
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.2.136.131.128.0.100
+INTEGER 2
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.3.136.131.128.0.100
+OCT STRING b'None'
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.4.1.9.9.130.33.1.3
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 6
+INTEGER 2
+TIME Tickt 71224118
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.1.136.131.128.0.132.98
+INTEGER 1
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.2.136.131.128.0.132.98
+INTEGER 2
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.3.136.131.128.0.132.98
+OCT STRING b'None'
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.4.1.9.9.43.2 [ciscoConfigManMIBNotificationPrefix]
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 6
+INTEGER 2
+TIME Tickt 71224394
+OID 1.3.6.1.4.1.9.9.43.1.1.1.0 [ccmHistoryRunningLastChanged]
+TIME Tickt 71223943
+OID 1.3.6.1.4.1.9.9.43.1.1.6.1.6.129.14
+INTEGER 4
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.4.1.9.9.130.33.1.3
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 6
+INTEGER 1
+TIME Tickt 71226319
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.1.136.131.128.0.1
+INTEGER 2
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.2.136.131.128.0.1
+INTEGER 12
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.3.136.131.128.0.1
+OCT STRING b'Administratively down'
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.4.1.9.9.130.33.1.3
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 6
+INTEGER 1
+TIME Tickt 71226329
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.1.136.131.128.0.100
+INTEGER 2
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.2.136.131.128.0.100
+INTEGER 12
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.3.136.131.128.0.100
+OCT STRING b'Administratively down'
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.4.1.9.9.130.33.1.3
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 6
+INTEGER 1
+TIME Tickt 71226339
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.1.136.131.128.0.132.98
+INTEGER 2
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.2.136.131.128.0.132.98
+INTEGER 12
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.3.136.131.128.0.132.98
+OCT STRING b'Administratively down'
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.4.1.9.9.130.20
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 6
+INTEGER 1
+TIME Tickt 71226349
+OID 1.3.6.1.2.1.2.2.1.1.136.131.128.0
+INTEGER 16826368
+OID 1.3.6.1.2.1.2.2.1.7.136.131.128.0
+INTEGER 2
+OID 1.3.6.1.2.1.2.2.1.8.136.131.128.0
+INTEGER 2
+OID 1.3.6.1.2.1.31.1.1.1.1.136.131.128.0
+OCT STRING b'fc1/13'
+OID 1.3.6.1.2.1.2.2.1.3.136.131.128.0
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.3.94
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 6
+INTEGER 6
+TIME Tickt 71226359
+OID 1.3.6.1.3.94.1.10.1.7.32.0.0.42.106.129.38.129.105.129.0.0.0.0.0.0.0.0.0.136.131.128.0
+INTEGER 1
+OID 1.3.6.1.3.94.1.10.1.6.32.0.0.42.106.129.38.129.105.129.0.0.0.0.0.0.0.0.0.136.131.128.0
+INTEGER 3
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.6.3.1.1.5.3
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 2
+INTEGER 0
+TIME Tickt 71226369
+OID 1.3.6.1.2.1.2.2.1.1.136.131.128.0
+INTEGER 16826368
+OID 1.3.6.1.2.1.2.2.1.7.136.131.128.0
+INTEGER 2
+OID 1.3.6.1.2.1.2.2.1.8.136.131.128.0
+INTEGER 2
+OID 1.3.6.1.2.1.2.2.1.2.136.131.128.0
+OCT STRING b'fc1/13'
+OID 1.3.6.1.2.1.31.1.1.1.18.136.131.128.0
+OCT STRING b'snm_test_trap'
+OID 1.3.6.1.4.1.9.9.130.33.1.1.2.1.7.136.131.128.0
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.4.1.9.9.43.2 [ciscoConfigManMIBNotificationPrefix]
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 6
+INTEGER 2
+TIME Tickt 71226389
+OID 1.3.6.1.4.1.9.9.43.1.1.1.0 [ccmHistoryRunningLastChanged]
+TIME Tickt 71226319
+OID 1.3.6.1.4.1.9.9.43.1.1.6.1.6.129.15
+INTEGER 4
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.4.1.9.9.130.20
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 6
+INTEGER 2
+TIME Tickt 71226712
+OID 1.3.6.1.2.1.2.2.1.1.136.131.128.0
+INTEGER 16826368
+OID 1.3.6.1.2.1.2.2.1.7.136.131.128.0
+INTEGER 1
+OID 1.3.6.1.2.1.2.2.1.8.136.131.128.0
+INTEGER 1
+OID 1.3.6.1.2.1.31.1.1.1.1.136.131.128.0
+OCT STRING b'fc1/13'
+OID 1.3.6.1.2.1.2.2.1.3.136.131.128.0
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.3.94
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 6
+INTEGER 6
+TIME Tickt 71226722
+OID 1.3.6.1.3.94.1.10.1.7.32.0.0.42.106.129.38.129.105.129.0.0.0.0.0.0.0.0.0.136.131.128.0
+INTEGER 3
+OID 1.3.6.1.3.94.1.10.1.6.32.0.0.42.106.129.38.129.105.129.0.0.0.0.0.0.0.0.0.136.131.128.0
+INTEGER 2
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.6.3.1.1.5.4
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 3
+INTEGER 0
+TIME Tickt 71226732
+OID 1.3.6.1.2.1.2.2.1.1.136.131.128.0
+INTEGER 16826368
+OID 1.3.6.1.2.1.2.2.1.7.136.131.128.0
+INTEGER 1
+OID 1.3.6.1.2.1.2.2.1.8.136.131.128.0
+INTEGER 1
+OID 1.3.6.1.2.1.2.2.1.2.136.131.128.0
+OCT STRING b'fc1/13'
+OID 1.3.6.1.2.1.31.1.1.1.18.136.131.128.0
+OCT STRING b'snm_test_trap'
+OID 1.3.6.1.4.1.9.9.130.33.1.1.2.1.3.136.131.128.0
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.4.1.9.9.130.33.1.3
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 6
+INTEGER 2
+TIME Tickt 71226742
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.1.136.131.128.0.1
+INTEGER 1
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.2.136.131.128.0.1
+INTEGER 2
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.3.136.131.128.0.1
+OCT STRING b'None'
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.4.1.9.9.130.33.1.3
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 6
+INTEGER 2
+TIME Tickt 71226752
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.1.136.131.128.0.100
+INTEGER 1
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.2.136.131.128.0.100
+INTEGER 2
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.3.136.131.128.0.100
+OCT STRING b'None'
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.4.1.9.9.130.33.1.3
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 6
+INTEGER 2
+TIME Tickt 71226762
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.1.136.131.128.0.132.98
+INTEGER 1
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.2.136.131.128.0.132.98
+INTEGER 2
+OID 1.3.6.1.4.1.9.9.130.33.1.1.3.1.3.136.131.128.0.132.98
+OCT STRING b'None'
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.4.1.9.9.43.2 [ciscoConfigManMIBNotificationPrefix]
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 6
+INTEGER 2
+TIME Tickt 71227396
+OID 1.3.6.1.4.1.9.9.43.1.1.1.0 [ccmHistoryRunningLastChanged]
+TIME Tickt 71226585
+OID 1.3.6.1.4.1.9.9.43.1.1.6.1.6.129.16
+INTEGER 4
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.4.1.9.9.43.2 [ciscoConfigManMIBNotificationPrefix]
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 6
+INTEGER 2
+TIME Tickt 71232393
+OID 1.3.6.1.4.1.9.9.43.1.1.1.0 [ccmHistoryRunningLastChanged]
+TIME Tickt 71232324
+OID 1.3.6.1.4.1.9.9.43.1.1.6.1.6.129.17
+INTEGER 4
+----------------------------------------------------------------------------------------------------
+Snmp Trap message from ('10.75.60.3', 32788)
+INTEGER 0 [snmp version v1]
+OCT STRING b'public'
+OID 1.3.6.1.4.1.9.9.43.2 [ciscoConfigManMIBNotificationPrefix]
+OS IP ADDR 10.75.60.3 [snmp v1 bind ip address]
+INTEGER 6
+INTEGER 2
+TIME Tickt 71236400
+OID 1.3.6.1.4.1.9.9.43.1.1.1.0 [ccmHistoryRunningLastChanged]
+TIME Tickt 71235887
+OID 1.3.6.1.4.1.9.9.43.1.1.6.1.6.129.18
+INTEGER 4
+----------------------------------------------------------------------------------------------------
